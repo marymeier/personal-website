@@ -1,0 +1,107 @@
+.navigation {
+    background-color: #fef2f2;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 10px 20px;
+    overflow: hidden;
+    border-right: 1px solid white;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+/* change the link color to pink on hover */
+.navigation li a:hover {
+    background-color: #b6666f;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.active {
+    color:#b6666f;
+}
+
+body {
+    background-color: #fef2f2;
+}
+
+.banner {
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #b6666f, #e4c2c1) ;
+    color: #fef2f2;
+    margin: 75px 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+
+#headshot {
+    height: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px #31383f);
+    float: left;
+}
+
+.about {
+    color: #31383f;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    display: table-cell;
+}
+
+#aboutParagraph {
+    border-left: 1px solid white;
+    font-size: 25px;
+    text-align: center;
+    color: #31383f;
+    padding: 10px 50px 500px;
+    
+}
+/* The rest of my pages will go down here */
+.connect, .education, .hobbies {
+    color: #31383f;
+    text-align: center;
+    font-size: 30px;
+}
+
+.connect li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid white;
+}
+
+.connect a {
+    color: #31383f;
+    text-decoration-color: #b6666f;
+    text-align: center;
+}
+
+.connect li a:hover {
+    background-color: #b6666f;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+#dance1, #dance2, #thon, #interview, #filming, #grad {
+    height: 300px;
+    border-radius: 10%;
+    filter: drop-shadow(1px 1px 1px #31383f);
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px 30px;
+    width: 50%;
+    display: table-cell;
+}
